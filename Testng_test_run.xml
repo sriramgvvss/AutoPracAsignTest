@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="automationpracticeMyStore.com">
+
+	<test name="automationpracticeMyStore.com.tests" parallel="false" preserve-order="true">
+    <classes>
+        <class name="automationpractice.com.tests.NewUserTransaction"> </class>
+        <class name="automationpractice.com.tests.RegisteredUserTransaction"></class>
+   </classes>
+</test>
+</suite>
